@@ -1,0 +1,177 @@
+ssh-keygen -T rsa -b 4096 -C "lukabevilacqua11@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "lukabevilacqua11@gmail.com"
+ssh-add ~/.ssh/idrsa.pub
+sudo cat ~/.ssh/idrsa.pub
+cat ~/.ssh/idrsa.pub
+ssh-add ~/.ssh/idrsa.pub
+ssh-add ~/.ssh/idrsa
+cat ~/.ssh/id_rsa.pub
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+mkdir repogit
+cd repogit/
+git clone git@github.com:LukaBevilacqua/UTNFRA_SO_1P2C_2024_Bevilacqua.git
+ls -l
+cd UTNFRA_SO_1P2C_2024_Bevilacqua/
+ls -l
+RTA_SCRIPT_Examen_20241012/
+cd RTA_SCRIPT_Examen_20241012/
+ls -l
+cd ..
+cd repogit/
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+source ~/.bashrc && history -a
+ls -l
+tree
+apt install tree
+sudo apt install tree
+sudo snap install tree
+ls
+UTNFRA_SO_1P2C_2024_Bevilacqua/
+cd UTNFRA_SO_1P2C_2024_Bevilacqua/
+ls
+RTA_SCRIPT_Examen_20241012
+cd RTA_SCRIPT_Examen_20241012
+ls -l
+cd ..
+cd RTA_SCRIPT_Examen_20241013
+ls -l
+cd ..
+rm -r RTA_SCRIPT_Examen_20241013
+ls -l
+tree
+clear
+ls -l
+cd RTA_SCRIPT_Examen_20241012/
+ls -l
+./Punto_A.sh 
+./Punto_B.sh 
+./Punto_D.sh 
+ls -l
+vim Punto_C.sh 
+cd ..
+ls -l
+cd ..
+ls -l
+tree Examenes-UTN/
+cd home/
+cd vagrant/
+tree Examenes-UTN/
+mkdir -p /Examenes-UTN/{alumno{1..3}/parcial{1..3},profesores}
+tree Examenes-UTN/
+ls -l
+mkdir -p ~/Examenes-UTN/{alumno_1,alumno_2,alumno_3}/{parcial_1,parcial_2,parcial_3} ~/Examenes-UTN/profesores
+tree Examenes-UTN/
+clear
+ls -l
+cd repogit
+ls -l
+cd UTNFRA_SO_1P2C_2024_Bevilacqua/
+ls -l
+cd RTA_SCRIPT_Examen_20241012/
+ls -l
+vim Punto_C.sh 
+sudo whoami
+whoami
+su vagrant
+passwd
+vim Punto_C.sh 
+chmod 777 Punto_C.sh 
+ls -l
+./Punto_C.sh 
+vim Punto_E.sh 
+cd ..
+ls -l
+/proc/meminfo
+sudo /proc/meminfo
+cd ..
+/proc/meminfo
+sudo /proc/meminfo
+cat /proc/meminfo
+cat /proc/meminfo | grep -i "MemTotal"
+ls -l
+cd repogit/
+ls -l
+cd UTNFRA_SO_1P2C_2024_Bevilacqua/
+ls -l
+cd RTA_SCRIPT_Examen_20241012/
+ls -l
+vim Punto_E.sh 
+sudo cat dmidecode -t chassis | grep -i "Manufacturer"
+sudo cat dmidecode -t chassis
+sudo dmidecode -t chassis | grep -i "Manufacturer"
+sudo dmidecode -t chassis | grep "Manufacturer"
+vim Punto_E.sh 
+chmod 777 Punto_E.sh 
+ls -l
+vim Punto_F.sh 
+clear
+git remote get-url origin
+vim Punto_F.sh 
+clear
+ls -l
+chmod 777 Punto_F.sh 
+cd ..
+ls -l
+vim README.md 
+git add .
+git commit -m "add: punto F terminado"
+git config --global user.email "lukabevilacqua11@gmail.com"
+git config --global user.name "LukaBevilacqua"
+git commit -m "add: punto F terminado"
+git push
+cd ..
+git add .
+ls -l
+ls -a
+cd UTNFRA_SO_1P2C_2024_Bevilacqua/
+ls -a
+cd RTA_SCRIPT_Examen_20241012/
+ls -l
+bash Punto_E.sh 
+./Punto_E.sh 
+vim Punto_E.sh 
+./Punto_E.sh 
+cd ..
+ls -l
+cd RTA_SCRIPT_Examen_20241012/
+vim Punto_E.sh 
+./Punto_E.sh 
+vim Punto_F.sh 
+./Punto_F.sh 
+vim Punto_F.sh 
+./Punto_F.sh 
+vim Punto_F.sh 
+./Punto_F.sh 
+cd ..
+git add .
+git commit -m "add: punto F terminado"
+git push
+cd RTA_SCRIPT_Examen_20241012/
+vim Punto_B.sh 
+cd ..
+git add .
+git commit -m "correciones en punto B, parcial casi terminado"
+git push
+cd RTA_SCRIPT_Examen_20241012/
+vim Punto_B.sh 
+git add .
+git commit -m "correciones en punto B, parcial casi terminado"
+git push
+history -a
+ls -l
+cd ..
+ls
+ls -l
+cd ..
+ls -l
+cd home
+cd vagrant
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_Bevilacqua/
+ls -l
+cat history -a
+history --help
+cat /.bash_history
+history -a
+history
