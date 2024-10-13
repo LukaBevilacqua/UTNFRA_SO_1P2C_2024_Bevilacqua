@@ -1,18 +1,18 @@
 #!/bin/bash
-
-
 sudo parted /dev/sdc --script mklabel gpt
 
-
-for i in {1..3}; do
-  sudo parted /dev/sdc --script mkpart primary ext4 $(($i * 1))GB $(($i * 1 + 1))GB
-done
-
-for i in {5..11}; do
-  sudo parted /dev/sdc --script mkpart primary ext4 $(($i * 1 - 1))GB $(($i * 1))GB
-done
+sudo parted /dev/sdc --script mkpart primary ext4 1GB 2GB
+sudo parted /dev/sdc --script mkpart primary ext4 2GB 3GB
+sudo parted /dev/sdc --script mkpart primary ext4 3GB 4GB
+sudo parted /dev/sdc --script mkpart primary ext4 4GB 5GB
+sudo parted /dev/sdc --script mkpart primary ext4 5GB 6GB
+sudo parted /dev/sdc --script mkpart primary ext4 6GB 7GB
+sudo parted /dev/sdc --script mkpart primary ext4 7GB 8GB
+sudo parted /dev/sdc --script mkpart primary ext4 8GB 9GB
+sudo parted /dev/sdc --script mkpart primary ext4 9GB 10GB
 
 sudo fdisk /dev/sdc -l
+
 sudo mkfs.ext4 /dev/sdc1
 sudo mkfs.ext4 /dev/sdc2
 sudo mkfs.ext4 /dev/sdc3
@@ -22,7 +22,7 @@ sudo mkfs.ext4 /dev/sdc7
 sudo mkfs.ext4 /dev/sdc8
 sudo mkfs.ext4 /dev/sdc9
 sudo mkfs.ext4 /dev/sdc10
-sudo mkfs.ext4 /dev/sdc11
+
 echo '/dev/sdc1 /Examenes-UTN/alumno_1/parcial_1 ext4 defaults 0 0' | sudo tee -a /etc/fstab
 echo '/dev/sdc2 /Examenes-UTN/alumno_1/parcial_2 ext4 defaults 0 0' | sudo tee -a /etc/fstab
 echo '/dev/sdc3 /Examenes-UTN/alumno_1/parcial_3 ext4 defaults 0 0' | sudo tee -a /etc/fstab
